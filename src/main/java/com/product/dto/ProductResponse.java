@@ -8,7 +8,9 @@ public class ProductResponse {
 	
 	private Integer productId;
 	
-	private String productName;
+	//private String productName;
 	
 	private String message;
+	
+	//private Integer stockQuantity;
 }

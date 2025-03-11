@@ -40,7 +40,7 @@ public class Product implements Serializable{
 	private Integer stockQuantity;
 	
 	@Column(name="product_price")
-	private Integer productPrice;
+	private Double productPrice;
 	
 	@CreationTimestamp
 	LocalDateTime createdAt;

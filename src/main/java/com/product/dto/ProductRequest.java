@@ -5,19 +5,11 @@ import lombok.Data;
 
 @Data
 public class ProductRequest {
-
 	
 	private String productName;
 	
+	private Integer stockQuantity;	
 	
-	private String productStatus;
-	
-	
-	private Integer stockQuantity;
-	
-	
-	private Integer productPrice;
-	
-	
-	
+	private Double productPrice;
+
 }
